@@ -1,5 +1,7 @@
 <h1 align="center">Playroom + Tailwind Starter</h1>
 
+Playroom, by the team at [@seek-oss](https://github.com/seek-oss), provides a JSX powered sandbox, coupled with the highly customizable CSS framework, [Tailwind](https://tailwindcss.com/), make a fantastic toolbox to design and build a great looking component library.
+
 ## Getting Started
 
 ```bash
