@@ -16,6 +16,10 @@ yarn run playroom:start
 
 Open [http://localhost:9000](http://localhost:9000) with your browser to see the result.
 
+## Customize Tailwind
+
+Open and edit the provided `tailwind.config.js` to customize the look and feel Tailwind. Learn more about Tailwind's configuration options here: [https://tailwindcss.com/docs/configuration](https://tailwindcss.com/docs/configuration)
+
 ## Build for Production
 
 ```bash
