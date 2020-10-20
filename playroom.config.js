@@ -4,7 +4,7 @@ module.exports = {
   components: './components',
   outputPath: './playroom-static',
   frameComponent: './playroom/FrameComponent.js',
-  title: 'SOL-UI C',
+  title: 'Tailwind',
   baseUrl: '/',
   exampleCode: `
   <Box className='p-4 bg-gray-900 text-xl text-white'>

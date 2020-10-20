@@ -26,6 +26,7 @@ Playroom is configured to build assets inside the `playroom-static` folder. This
 
 - [Playroom](https://github.com/seek-oss/playroom)
 - [Tailwindcss](https://tailwindcss.com/)
+- [Reakit](https://reakit.io/)
 
 ## License
 
