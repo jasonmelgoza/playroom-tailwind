@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   components: './components',
   outputPath: './playroom-static',
+  snippets: './playroom/snippets.js',
   frameComponent: './playroom/FrameComponent.js',
   title: 'Tailwind',
   baseUrl: '/',
