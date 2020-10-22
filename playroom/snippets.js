@@ -69,7 +69,7 @@ export default [
     group: 'UI',
     name: 'Default Button',
     code: `
-      <Box as='button' className='inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-gray-500 border border-transparent rounded-md hover:bg-gray-600 focus:outline-none focus:border-gray-700 active:bg-gray-700'>
+      <Box as='button' className='inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md hover:bg-gray-200 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 active:text-gray-800 active:bg-gray-50'>
         Button
       </Box>
     `,
@@ -78,7 +78,7 @@ export default [
     group: 'UI',
     name: 'Primary Button',
     code: `
-      <Box as='button' className='inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-blue-500 border border-transparent rounded-md hover:bg-blue-600 focus:outline-none focus:border-blue-700 active:bg-blue-700'>
+      <Box as='button' className='items-center px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md nline-flex hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue focus:border-blue-700 active:bg-blue-700'>
         Button
       </Box>
     `,
