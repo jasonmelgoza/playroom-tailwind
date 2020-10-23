@@ -2,13 +2,13 @@ const path = require('path');
 
 module.exports = {
   components: './components',
-  outputPath: './playroom-static',
+  outputPath: './build',
   snippets: './playroom/snippets.js',
   frameComponent: './playroom/FrameComponent.js',
   title: 'Tailwind',
   baseUrl: '/',
   exampleCode: `
-  <Box className='p-4 bg-gray-900 text-xl text-white'>
+  <Box className='p-4 text-xl text-white bg-gray-900'>
     Hello World!
   </Box>
 `,
