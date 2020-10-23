@@ -27,6 +27,29 @@ export default [
   },
   {
     group: 'Block',
+    name: 'Nav Menu',
+    code: `
+      <Box class="hidden md:block">
+        <Box class="ml-10 flex items-baseline space-x-3 sm:space-x-4">
+          <a
+            href="#"
+            class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
+            Dashboard
+          </a>
+
+          <a
+            href="#"
+            class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
+            Team
+          </a>
+        </Box>
+      </Box>
+    `,
+  },
+  {
+    group: 'Block',
     name: 'Main',
     code: `
     <Box as='main' className='flex-1 bg-white'>
@@ -106,6 +129,25 @@ export default [
             fill="currentColor"
           ></path>
         </svg>
+      </Box>
+    `,
+  },
+  {
+    group: 'UI',
+    name: 'Avatar Button',
+    code: `
+      <Box
+        as='button'
+        class="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-solid"
+        id="user-menu"
+        aria-label="User menu"
+        aria-haspopup="true"
+      >
+        <img
+          class="h-8 w-8 rounded-full"
+          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+          alt=""
+        />
       </Box>
     `,
   },
